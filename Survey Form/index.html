@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Web Development Survey</title>
+</head>
+
+<body>
+
+  <header>
+    <h1 id="title">Web Development Survey</h1>
+  </header>
+
+  <p id="description">Thank you for letting us know what matters to you!</p>
+  <div>
+    <form id="survey-form">
+      <div class="input-headings">
+
+        <label for="name" id="name-label">Name:</label>
+        <input id="name" type="text" name="name" placeholder="John Doe" class="form-input" required></input>
+        <br>
+
+        <label for="email" id="email-label">Email:</label>
+        <input id="email" type="email" name="email" placeholder="YourEmail@gmail.com" class="form-input" required></input>
+        <br>
+
+        <label for="number" id="number-label">Age:</label>
+        <input id="number" type="number" name="number" Placeholder="Age" min="18" max="100" class="form-input" required></input>
+        <br>
+        <br>
+
+        <label for="dropdown" id="language">Preferred coding language:</label>
+        <select id="dropdown" class="form-input">
+          <option value="html">HTML/CSS</option>
+          <option value="javascript">JavaScript</option>
+          <option value="python">Python</option>
+          <option value="php">PHP</option>
+          <option value="ruby">Ruby</option>
+          <option value="java">Java</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="level" id="level"><strong>Coding Expertise Level:</strong></label>
+        <br>
+        <input id="level" type="radio" id="beginner" name="level" value="beginner">
+        <label for="level">Beginner</label>
+        <br>
+        <input id="level" type="radio" id="intermediate" name="level" value="intermediate">
+        <label for="level">Intermediate</label>
+        <br>
+        <input id="level" type="radio" id="intermediate" name="level" value="advanced">
+        <label for="level">Advanced</label>
+        <br>
+        <input id="level" type="radio" id="intermediate" name="level" value="expert">
+        <label for="level">Expert</label>
+        <br>
+        <br>
+
+        <label for="skills"><strong>Area of expertise:</strong></label>
+        <br>
+        <input id="checkbox" type="checkbox" name="skills" value="UI/UX">
+        <label for="checkbox">UI/UX</label>
+        <br>
+        <input id="checkbox" type="checkbox" name="skills" value="graphic_design">
+        <label for="checkbox">Graphic Design</label>
+        <br>
+        <input id="checkbox" type="checkbox" name="skills" value="frontend">
+        <label for="checkbox">Frontend Development</label>
+        <br>
+        <input id="checkbox" type="checkbox" name="skills" value="backend">
+        <label for="checkbox">Backend Development</label>
+        <br>
+        <br>
+        <label id="textarea"><strong>Additional Comments:</strong></label>
+        <br>
+        <textarea id="textarea" name="instructions" row="5" cols="40">
+
+
+</textarea>
+        <br>
+        <br>
+        <input id="submit" type="submit" value="Submit" class="submit-button">
+
+      </div>
+    </form>
+
+
+
+
+  </div>
+
+</body>
+
+</html>
